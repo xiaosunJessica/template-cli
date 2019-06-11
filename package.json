@@ -1,10 +1,10 @@
 {
-  "name": "template-cli",
-  "version": "1.0.0",
+  "name": "react-node-cli",
+  "version": "1.0.1",
   "description": "create template cli",
   "main": "index.js",
   "bin": {
-    "sun": "bin/sun.js"
+    "react-node-cli": "bin/sun.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,10 +20,14 @@
   },
   "homepage": "https://github.com/xiaosunJessica/template-cli#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
     "child_process": "^1.0.2",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
-    "commander": "^2.20.0"
+    "commander": "^2.20.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.3.1"
   }
 }
